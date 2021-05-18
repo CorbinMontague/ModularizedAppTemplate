@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  App
+
+  Created by Corbin Montague on 5/18/21.
+  
+*/
+
+"goToModule" = "Ir a %@";
+"greetingModule" = "Bienvenido al %@ de %@";
+"back" = "Espalda";
