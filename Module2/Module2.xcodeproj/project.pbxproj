@@ -10,6 +10,7 @@
 		295F00E12654294D00216117 /* Module2.h in Headers */ = {isa = PBXBuildFile; fileRef = 295F00DF2654294D00216117 /* Module2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		295F01392654517000216117 /* Module2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 295F01382654517000216117 /* Module2.xcassets */; };
 		295F013C2654518200216117 /* Module2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F013B2654518200216117 /* Module2ViewController.swift */; };
+		29A61A702654615900E68AC0 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A6F2654615900E68AC0 /* Core.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		295F00E02654294D00216117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		295F01382654517000216117 /* Module2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Module2.xcassets; sourceTree = "<group>"; };
 		295F013B2654518200216117 /* Module2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module2ViewController.swift; sourceTree = "<group>"; };
+		29A61A6F2654615900E68AC0 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A61A702654615900E68AC0 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 				295F00E82654295900216117 /* Source */,
 				295F00E72654295400216117 /* SupportingFiles */,
 				295F00DD2654294D00216117 /* Products */,
+				29A61A6E2654615900E68AC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -80,6 +84,14 @@
 				295F013B2654518200216117 /* Module2ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		29A61A6E2654615900E68AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A61A6F2654615900E68AC0 /* Core.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

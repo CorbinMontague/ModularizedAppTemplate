@@ -24,6 +24,18 @@
 		295F0147265452AD00216117 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 295F0149265452AD00216117 /* Localizable.strings */; };
 		295F0150265452F500216117 /* Lightside.strings in Resources */ = {isa = PBXBuildFile; fileRef = 295F0152265452F500216117 /* Lightside.strings */; };
 		295F0155265452FD00216117 /* Darkside.strings in Resources */ = {isa = PBXBuildFile; fileRef = 295F0157265452FD00216117 /* Darkside.strings */; };
+		29A61A772654616400E68AC0 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A742654616400E68AC0 /* Core.framework */; };
+		29A61A782654616400E68AC0 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A742654616400E68AC0 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29A61A792654616400E68AC0 /* Module1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A752654616400E68AC0 /* Module1.framework */; };
+		29A61A7A2654616400E68AC0 /* Module1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A752654616400E68AC0 /* Module1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29A61A7B2654616400E68AC0 /* Module2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A762654616400E68AC0 /* Module2.framework */; };
+		29A61A7C2654616400E68AC0 /* Module2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A762654616400E68AC0 /* Module2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29A61A812654616900E68AC0 /* Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A7E2654616900E68AC0 /* Core.framework */; };
+		29A61A822654616900E68AC0 /* Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A7E2654616900E68AC0 /* Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29A61A832654616900E68AC0 /* Module1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A7F2654616900E68AC0 /* Module1.framework */; };
+		29A61A842654616900E68AC0 /* Module1.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A7F2654616900E68AC0 /* Module1.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		29A61A852654616900E68AC0 /* Module2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A802654616900E68AC0 /* Module2.framework */; };
+		29A61A862654616900E68AC0 /* Module2.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 29A61A802654616900E68AC0 /* Module2.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +46,43 @@
 			remoteGlobalIDString = 295F0081265421B400216117;
 			remoteInfo = App;
 		};
+		29A61A88265461A100E68AC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 295F007A265421B400216117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 295F010F26542E8A00216117;
+			remoteInfo = Darkside;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		29A61A7D2654616400E68AC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				29A61A7C2654616400E68AC0 /* Module2.framework in Embed Frameworks */,
+				29A61A7A2654616400E68AC0 /* Module1.framework in Embed Frameworks */,
+				29A61A782654616400E68AC0 /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29A61A872654616900E68AC0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				29A61A862654616900E68AC0 /* Module2.framework in Embed Frameworks */,
+				29A61A842654616900E68AC0 /* Module1.framework in Embed Frameworks */,
+				29A61A822654616900E68AC0 /* Core.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		295F0082265421B400216117 /* Lightside.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lightside.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +106,12 @@
 		295F0154265452FA00216117 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Lightside.strings; sourceTree = "<group>"; };
 		295F0156265452FD00216117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Darkside.strings; sourceTree = "<group>"; };
 		295F01582654530000216117 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Darkside.strings; sourceTree = "<group>"; };
+		29A61A742654616400E68AC0 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A61A752654616400E68AC0 /* Module1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Module1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A61A762654616400E68AC0 /* Module2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Module2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A61A7E2654616900E68AC0 /* Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A61A7F2654616900E68AC0 /* Module1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Module1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29A61A802654616900E68AC0 /* Module2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Module2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +119,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A61A7B2654616400E68AC0 /* Module2.framework in Frameworks */,
+				29A61A792654616400E68AC0 /* Module1.framework in Frameworks */,
+				29A61A772654616400E68AC0 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +136,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A61A852654616900E68AC0 /* Module2.framework in Frameworks */,
+				29A61A832654616900E68AC0 /* Module1.framework in Frameworks */,
+				29A61A812654616900E68AC0 /* Core.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +154,7 @@
 				295F00B2265426CF00216117 /* SupportingFiles */,
 				295F00FA26542C4900216117 /* UITests */,
 				295F0083265421B400216117 /* Products */,
+				29A61A732654616300E68AC0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,6 +225,19 @@
 			path = UITests;
 			sourceTree = "<group>";
 		};
+		29A61A732654616300E68AC0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A61A7E2654616900E68AC0 /* Core.framework */,
+				29A61A7F2654616900E68AC0 /* Module1.framework */,
+				29A61A802654616900E68AC0 /* Module2.framework */,
+				29A61A742654616400E68AC0 /* Core.framework */,
+				29A61A752654616400E68AC0 /* Module1.framework */,
+				29A61A762654616400E68AC0 /* Module2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -174,6 +248,7 @@
 				295F007E265421B400216117 /* Sources */,
 				295F007F265421B400216117 /* Frameworks */,
 				295F0080265421B400216117 /* Resources */,
+				29A61A7D2654616400E68AC0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +271,7 @@
 			);
 			dependencies = (
 				295F00FF26542C4900216117 /* PBXTargetDependency */,
+				29A61A89265461A100E68AC0 /* PBXTargetDependency */,
 			);
 			name = UITests;
 			productName = UITests;
@@ -209,6 +285,7 @@
 				295F011026542E8A00216117 /* Sources */,
 				295F011326542E8A00216117 /* Frameworks */,
 				295F011426542E8A00216117 /* Resources */,
+				29A61A872654616900E68AC0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -329,6 +406,11 @@
 			isa = PBXTargetDependency;
 			target = 295F0081265421B400216117 /* Lightside */;
 			targetProxy = 295F00FE26542C4900216117 /* PBXContainerItemProxy */;
+		};
+		29A61A89265461A100E68AC0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 295F010F26542E8A00216117 /* Darkside */;
+			targetProxy = 29A61A88265461A100E68AC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -540,7 +622,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = App;
+				TEST_TARGET_NAME = Lightside;
 			};
 			name = Debug;
 		};
@@ -558,7 +640,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = App;
+				TEST_TARGET_NAME = Lightside;
 			};
 			name = Release;
 		};
