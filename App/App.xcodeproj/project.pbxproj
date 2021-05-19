@@ -39,19 +39,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		295F00FE26542C4900216117 /* PBXContainerItemProxy */ = {
+		290667DD2655445700F93216 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 295F007A265421B400216117 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 295F0081265421B400216117;
-			remoteInfo = App;
-		};
-		29A61A88265461A100E68AC0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 295F007A265421B400216117 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 295F010F26542E8A00216117;
-			remoteInfo = Darkside;
+			remoteInfo = Lightside;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -270,8 +263,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				295F00FF26542C4900216117 /* PBXTargetDependency */,
-				29A61A89265461A100E68AC0 /* PBXTargetDependency */,
+				290667DE2655445700F93216 /* PBXTargetDependency */,
 			);
 			name = UITests;
 			productName = UITests;
@@ -402,15 +394,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		295F00FF26542C4900216117 /* PBXTargetDependency */ = {
+		290667DE2655445700F93216 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 295F0081265421B400216117 /* Lightside */;
-			targetProxy = 295F00FE26542C4900216117 /* PBXContainerItemProxy */;
-		};
-		29A61A89265461A100E68AC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 295F010F26542E8A00216117 /* Darkside */;
-			targetProxy = 29A61A88265461A100E68AC0 /* PBXContainerItemProxy */;
+			targetProxy = 290667DD2655445700F93216 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
